@@ -138,11 +138,6 @@ main {
 .card_sn-nm {
   padding: 0.9em;
   width: 90%;
-  background-color: #f9f9f9;
-  box-shadow: 
-    0 6px 9px 0 rgba(0, 0, 0, 0.21), 
-    0 6px 21px 0 rgba(0, 0, 0, 0.18);
-  border-radius: 3px;
   animation: 
   cardEaseIn 1.2s ease-in-out;
   animation-fill-mode:backwards, none;
@@ -151,6 +146,12 @@ main {
 
 .card_sn-fla, .card_sn-flb, .card_sn-nm {
   flex: 100%;
+}
+
+.font-light {
+  font-size: 2.1rem;
+  color: grey;
+  font-weight: lighter;
 }
 
 .card_sn-fla {
@@ -404,10 +405,10 @@ main {
 .card-img-m_g {
   width:100%;
   height:150px;
+  background-image: url('assets/webp/graphic-showreel-1.webp');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
-  overflow: hidden;
   transition: all 1.2s ease-in-out;
 }
 
@@ -417,11 +418,14 @@ main {
 .card-img-ma:hover,
 .card-img-mb:hover,
 .card-img-mc:hover,
+.card-img-mca:hover,
+.card-img-mcb:hover,
 .card-img-md:hover,
 .card-img-me:hover,
 .card-img-mf:hover,
 .card-img-v:hover,
 .card-img-vb:hover,
+.card-img-vc:hover,
 .card-img-s_g:hover,
 .card-img-m_g:hover {
   transform: scale(1.2);
@@ -452,6 +456,26 @@ main {
   width:100%;
   height:80px;
   background-image: url('assets/images/nb_visual.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  transition: all 1.2s ease-in-out;
+}
+
+.card-img-mca {
+  width:100%;
+  height:80px;
+  background-image: url('assets/images/tablet-visual.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  transition: all 1.2s ease-in-out;
+}
+
+.card-img-mcb {
+  width:100%;
+  height:80px;
+  background-image: url('assets/images/bread-render.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center center;
@@ -499,8 +523,20 @@ main {
 .card-img-vb {
   width:100%;
   height:120px;
-  object-fit: cover;
-  overflow: hidden;
+  background-image: url('assets/webp/motion-graphic.webp');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  transition: all 1.2s ease-in-out;
+}
+
+.card-img-vc {
+  width:100%;
+  height:260px;
+  background-image: url('assets/webp/business-profile-showreel.webp');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
   transition: all 1.2s ease-in-out;
 }
 
